@@ -45,7 +45,7 @@ provider equinix {
   client_secret = var.equinix_client_secret
 }
 
-module "csr1000v" {
+module "pa-vm" {
   source           = "equinix/pa-vm/equinix"
   metro_code       = "SV"
   platform         = "medium"
