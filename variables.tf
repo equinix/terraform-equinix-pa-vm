@@ -30,6 +30,10 @@ variable "software_package" {
     error_message = "One of following software packages are supported: VM100, VM300, VM500."
   }
 }
+variable "software_version" {
+  description = "Device software version"
+  type        = string
+}
 
 variable "self_managed" {
   description = "Determines device management mode: self-managed or Equinix managed (default)"

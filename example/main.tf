@@ -10,6 +10,7 @@ module "pa-vm" {
   metro_code           = var.metro_code_primary
   platform             = "medium"
   software_package     = "VM300"
+  software_version     = "9.0.4"
   term_length          = 1
   notifications        = ["test@test.com"]
   hostname             = "pavm-pri"

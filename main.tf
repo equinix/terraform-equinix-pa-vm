@@ -51,7 +51,7 @@ resource "equinix_network_device" "this" {
   hostname             = var.hostname
   type_code            = data.equinix_network_device_type.this.code
   package_code         = var.software_package
-  version              = data.equinix_network_device_software.this.version
+  version              = var.software_version
   core_count           = data.equinix_network_device_platform.this.core_count
   metro_code           = var.metro_code
   account_number       = local.metro_accounts["pri"]
