@@ -33,6 +33,7 @@ variable "software_package" {
 variable "software_version" {
   description = "Device software version"
   type        = string
+  default     = null
 }
 
 variable "self_managed" {
