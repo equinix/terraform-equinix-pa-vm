@@ -50,6 +50,7 @@ module "pa-vm" {
   metro_code       = "SV"
   platform         = "medium"
   software_package = "VM300"
+  software_version = "9.0.4"
   name             = "tf-tst-pavm"
   hostname         = "pri"
   term_length      = 1
@@ -70,6 +71,7 @@ module "pa-vm" {
 |account_number|Billing account number for a device. If not provided, active account for a device metro code will be used|`string`|`0`|no|
 |platform|Device hardware platform flavor: `small`, `medium`, `large`|`string`|`""`|yes|
 |software_package|Device software package: `VM100`, `VM300`, `VM500`|`string`|`""`|yes|
+|software_version|Device software Version: `9.0.0`, `9.0.1`, `9.0.4`|`string`|`""`|yes|
 |self_managed|Determines device management mode: self-managed or Equinix managed|`bool`|`false`|no|
 |byol|Determines device licensing mode: bring your own license or subscription|`bool`|`false`|no|
 |license_token|License token applicable for Equinix managed device in BYOL licensing mode|`string`|`""`|no|
