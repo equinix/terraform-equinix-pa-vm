@@ -4,7 +4,7 @@ provider "equinix" {
 }
 
 module "pa-vm" {
-  source               = "equinix/pa-vm/equinix"
+  source               = ".././"
   version              = "1.0.0"
   name                 = "tf-pa-vm"
   metro_code           = var.metro_code_primary

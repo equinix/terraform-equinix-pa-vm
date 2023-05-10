@@ -19,13 +19,13 @@ Supported device modes:
 | Name | Version |
 |------|---------|
 | terraform | >= 0.13.0 |
-| equinix/equinix | >= 1.1.0 |
+| equinix/equinix | ~> 1.14 |
 
 ## Providers
 
 | Name | Version |
 |---------|----------|
-| equinix/equinix | >= 1.1.0 |
+| equinix/equinix | ~> 1.14 |
 
 ## Assumptions
 
