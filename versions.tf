@@ -3,7 +3,10 @@ terraform {
   required_providers {
     equinix = {
       source  = "equinix/equinix"
-      version = ">= 1.1.0"
+      version = "~> 1.14"
     }
+  }
+  provider_meta "equinix" {
+    module_name = "equinix-pa-vm"
   }
 }
