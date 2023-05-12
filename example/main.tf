@@ -4,7 +4,7 @@ provider "equinix" {
 }
 
 module "pa-vm" {
-  source               = "../"
+  source = "../"
   # source               = "equinix/pa-vm/equinix"
   # version              = "1.1.0" # Use the latest version, according to https://github.com/equinix/terraform-equinix-pa-vm/releases
   name                 = "tf-pa-vm"
